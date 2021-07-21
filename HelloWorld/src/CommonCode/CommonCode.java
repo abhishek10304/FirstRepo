@@ -2,9 +2,9 @@ package CommonCode;
 
 public class CommonCode {
 
-	public static void printArray2D(int array[][], int n) {
+	public static void printArray2D(int array[][], int n, int m) {
 		for(int i = 0; i<n ; i++) {
-			for(int j = 0 ; j<n ; j++) {
+			for(int j = 0 ; j<m ; j++) {
 				System.out.print(array[i][j]+"  ");
 			}
 			System.out.println();

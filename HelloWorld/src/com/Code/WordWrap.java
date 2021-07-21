@@ -28,7 +28,7 @@ public class WordWrap {
 	     minCost[n-1][n-1] = 0;
 		 
 		 CommonCode cc = new CommonCode();
-		 cc.printArray2D(minCost, n);
+		 cc.printArray2D(minCost, n, n);
 		 
 		 for(int i=n-1; i>=0; i--) {
 			 cal[i] = minCost[i][n-1];
